@@ -1242,6 +1242,13 @@ span.error {
     right: -300px;
 }
 
+.prizes-page::before {
+    top: 80px;
+    right: -200px;
+    width: 520px;
+    height: 520px;
+}
+
 .inner-decor1 {
     position: absolute;
     top: -100px;
@@ -1319,7 +1326,7 @@ span.error {
 }
 
 .faq-item-title.active::before {
-    background: url(../img/plus-white.svg) plus-yellow;
+    background: url(../img/plus-white.svg) center no-repeat;
     background-size: 17px;
     transform: rotate(45deg);
 }
@@ -1775,6 +1782,63 @@ table td:nth-child(3) {
     width: 100%;
 }
 
+.prizes {
+    display: flex;
+    justify-content: space-between;
+    max-width: 640px;
+    width: 100%;
+    margin: 25px auto 0;
+}
+
+.prize-img {
+    position: relative;
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+    justify-content: center;
+    height: 313px;
+    margin-bottom: 20px;
+}
+
+.prize-img::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -200px;
+    right: -200px;
+    bottom: 0;
+    margin: auto;
+    width: 541px;
+    height: 541px;
+    background: url(../img/prize-bg.png) center no-repeat;
+    background-size: contain;
+    z-index: 0;
+}
+
+.prize-img img {
+    position: relative;
+}
+
+.prize-name {
+    position: relative;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFDD67;
+    margin-bottom: 5px;
+}
+
+.prize-text {
+    position: relative;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFDD67;
+}
+
 @media (max-width: 1440px) {
     footer::before {
         background-size: cover;
@@ -1936,6 +2000,10 @@ table td:nth-child(3) {
         height: 380px;
     }
 
+    .prizes-page::before {
+        display: none;
+    }
+
     .faq-container {
         margin: 40px auto 0;
         flex-direction: column;
@@ -2049,6 +2117,26 @@ table td:nth-child(3) {
 
     .lk-table table td:nth-child(3) {
         min-width: 60px;
+    }
+
+    .prizes-title {
+        position: relative;
+        z-index: 1;
+    }
+
+    .prizes {
+        flex-direction: column;
+        -ms-align-items: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .prize1 {
+        margin-bottom: 40px;
+    }
+
+    .prize1 .prize-img {
+        height: 226px;
     }
 }
 
