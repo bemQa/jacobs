@@ -1909,20 +1909,20 @@ table td:nth-child(3) {
 }
 
 .date-filter .select2-container--default .select2-selection--single .select2-selection__placeholder {
-    color: #682700;
+    color: #231F20;
     font-size: 14px;
     font-weight: normal;
 }
 
 .date-filter .select2-container--default .select2-selection--single .select2-selection__rendered {
     padding-right: 0;
-    color: #682700;
+    color: #231F20;
     font-size: 14px;
     font-weight: normal;
 }
 
 .date-filter .select2-container--open.select2-container--default .select2-selection--single .select2-selection__rendered {
-    color: #682700;
+    color: #231F20;
 }
 
 .date-filter .select2-container--default .select2-selection--single .select2-selection__arrow {
@@ -1978,11 +1978,11 @@ table td:nth-child(3) {
     margin: auto;
     width: 90%;
     height: 1px;
-    background: #682700;
+    background: #231F20;
 }
 
 .date-filter .select2-results__options {
-    color: #682700;
+    color: #231F20;
     font-weight: normal;
     font-size: 12px;
 }
@@ -1993,7 +1993,7 @@ table td:nth-child(3) {
 
 .date-filter .select2-container--default .select2-results__option--highlighted[aria-selected],
 .date-filter .select2-container--default .select2-results__option[aria-selected=true] {
-    color: #682700;
+    color: #231F20;
 }
 
 .phone-filter {
