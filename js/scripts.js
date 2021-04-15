@@ -198,4 +198,28 @@ $(document).ready(function () {
         slidesToScroll: 1,
         swipe: false
     });
+
+    if($(window).innerWidth() >= 1000) {
+        $('.product').mousemove(function(e) {
+            e.preventDefault();
+            $(this).removeClass('blur');
+            $(this).siblings().addClass('blur');
+        });
+
+        $('.product').mouseout(function(e) {
+            e.preventDefault();
+            $('.product').removeClass('blur');
+        });
+    } else {
+        $('.product-link').click(function(e) {
+            e.preventDefault();
+            $('.tooltip').removeClass('active');
+            $(this).next().addClass('active');
+        });
+
+        $('.close-tooltip').click(function(e) {
+            e.preventDefault();
+            $(this).parent().removeClass('active');
+        });
+    }
 });
