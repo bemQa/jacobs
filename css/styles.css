@@ -2337,6 +2337,136 @@ table td:nth-child(3) {
     background: #fff;
 }
 
+.main-page::before {
+    display: none;
+}
+
+.main-bg {
+    position: absolute;
+    top: -30px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 849px;
+    height: 877px;
+    background: url(../img/main-bg.png) center no-repeat;
+    background-size: contain;
+    filter: none;
+    opacity: .1;
+    z-index: 0;
+}
+
+.main-sphere1 {
+    position: absolute;
+    top: 300px;
+    left: -600px;
+    right: 0;
+    margin: auto;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    background: #437729;
+    filter: blur(100px);
+    z-index: 0;
+}
+
+.main-sphere2 {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: -400px;
+    margin: auto;
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    background: #437729;
+    filter: blur(100px);
+    z-index: 0;
+}
+
+.kv-stol {
+    position: absolute;
+    bottom: -30px;
+    left: -1000px;
+    right: -1000px;
+    margin: auto;
+    width: 100vw;
+    height: 400px;
+    background: url(../img/stol-kv.png) center no-repeat;
+    background-size: 100% 100%;
+    z-index: 0;
+}
+
+.kv {
+    position: absolute;
+    top: -50px;
+    left: 0;
+    right: -130px;
+    margin: auto;
+    width: 627px;
+    height: 494px;
+    background: url(../img/kv.png) center no-repeat;
+    background-size: contain;
+}
+
+.main-decor {
+    position: absolute;
+    top: -30px;
+    left: 0;
+    right: -50px;
+    margin: auto;
+    width: 777px;
+    height: 411px;
+    background: url(../img/main-decor.png) center no-repeat;
+    background-size: contain;
+    z-index: 1;
+}
+
+.steps-block {
+    position: relative;
+    max-width: 780px;
+    width: 100%;
+    margin: auto;
+    padding-top: 450px;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto 25px;
+}
+
+.step {
+    max-width: 260px;
+    width: 100%;
+}
+
+.step-img {
+    display: flex;
+    -ms-align-items: flex-end;
+    align-items: flex-end;
+    justify-content: center;
+    min-height: 64px;
+    margin-bottom: 10px;
+}
+
+.step-title {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFDD67;
+    margin-bottom: 5px;
+}
+
+.step-text {
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFDD67;
+}
+
 @media (max-width: 1440px) {
     footer::before {
         background-size: cover;
@@ -2779,6 +2909,74 @@ table td:nth-child(3) {
     .tooltip-info {
         font-size: 14px;
         line-height: 16px;
+    }
+
+    .main-sphere1 {
+        top: 205px;
+        left: auto;
+        right: -50px;
+        width: 380px;
+        height: 380px;
+    }
+
+    .main-bg {
+        top: 195px;
+        left: -100px;
+        right: -100px;
+        width: 450px;
+        height: 382px;
+        background: url(../img/main-bg-mob.png) center no-repeat;
+        background-size: contain;
+        opacity: 1;
+    }
+
+    .kv-stol {
+        top: 540px;
+        bottom: auto;
+        left: -200px;
+        right: -200px;
+        margin: auto;
+        width: 514px;
+        height: 144px;
+        background: url(../img/stol-kv-mob.png) center no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .kv {
+        top: 195px;
+        left: -50px;
+        right: -115px;
+        width: 448px;
+        height: 387px;
+        background: url(../img/kv-mob.png) center no-repeat;
+        background-size: contain;
+    }
+
+    .main-decor {
+        top: 170px;
+        left: -50px;
+        right: -40px;
+        width: 415px;
+        height: 299px;
+        background: url(../img/main-decor-mob.png) center no-repeat;
+        background-size: contain;
+    }
+
+    .steps-block {
+        max-width: 320px;
+        padding-top: 600px;
+    }
+
+    .steps {
+        flex-direction: column;
+        -ms-align-items: center;
+        align-items: center;
+        justify-content: center;
+        margin: 40px auto 30px;
+    }
+
+    .step:not(:last-child) {
+        margin-bottom: 24px;
     }
 }
 
