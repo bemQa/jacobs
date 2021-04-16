@@ -257,6 +257,26 @@
 		                    	<div class="input-field">
 		                    		<textarea name="message" placeholder="Текст сообщения" required></textarea>
 		                    	</div>
+		                    	<div class="checkbox-wrapper">
+			                        <div class="input-field checkbox-field">
+			                            <label for="check-data" class="checkbox">
+			                                <input id="check-data" name="check-data" type="checkbox" required>
+			                                <span class="checkmark"></span>
+			                                <span class="checkbox-text">Я согласен на обработку моих <a href="#!" class="rules-link link" target="_blank">персональных данных</a></span>
+			                            </label> 
+			                        </div>
+								</div>
+								<div class="feedback-desc">Введите символы с картинки</div>
+								<div class="captcha-wrap mb20">
+		                    		<div class="popup__error"></div>
+		                    		<div class="captcha-field">
+		                    			<img src="img/captcha.png" alt="" style="mix-blend-mode: multiply;"> <!-- убрать mix-blend-mode для капчи без белого фона -->
+		                    			<a href="#!" class="reload-captcha"></a>
+		                    		</div>
+		                    		<div class="input-field">
+			                    		<input type="text" name="captcha" required>
+			                    	</div>
+		                    	</div>
 		                    	<div class="btn-wrapper">
 									<button class="btn">Отправить</button>
 								</div>
@@ -349,7 +369,8 @@
 	                    	<div class="captcha-wrap">
 	                    		<div class="popup__error"></div>
 	                    		<div class="captcha-field">
-	                    			<img src="img/captcha.png" alt="">
+	                    			<img src="img/captcha.png" alt="" style="mix-blend-mode: multiply;"> <!-- убрать mix-blend-mode для капчи без белого фона -->
+	                    			<a href="#!" class="reload-captcha"></a>
 	                    		</div>
 	                    		<div class="input-field">
 		                    		<input type="text" name="captcha" required>
