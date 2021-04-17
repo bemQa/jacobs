@@ -664,7 +664,7 @@ footer::before {
 
 .main-prize {
     position: absolute;
-    top: 0;
+    top: 20px;
     left: 0;
     right: 0;
     margin: auto;
@@ -691,13 +691,13 @@ footer::before {
 
 .card-5ka {
     position: absolute;
-    top: 220px;
+    top: 230px;
     left: 55px;
 }
 
 .card-perek {
     position: absolute;
-    top: 190px;
+    top: 200px;
     right: 30px;
 }
 
