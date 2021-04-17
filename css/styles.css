@@ -2466,6 +2466,50 @@ table td:nth-child(3) {
     color: #FFDD67;
 }
 
+.error-decor {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    right: -60px;
+    margin: auto;
+    width: 737px;
+    height: 481px;
+    background: url(../img/error-decor.png) center no-repeat;
+    background-size: contain;
+    z-index: 1;
+}
+
+.error-title {
+    position: absolute;
+    top: 45px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 579px;
+    height: 280px;
+}
+
+.error-title.error-404 {
+    background: url(../img/404.png) center no-repeat;
+    background-size: contain;
+}
+
+.error-title.error-500 {
+    background: url(../img/500.png) center no-repeat;
+    background-size: contain;
+}
+
+.error-text {
+    padding-top: 300px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFDD67;
+    margin-bottom: 15px;
+}
+
 @media (max-width: 1440px) {
     footer::before {
         background-size: cover;
@@ -2976,6 +3020,35 @@ table td:nth-child(3) {
 
     .step:not(:last-child) {
         margin-bottom: 24px;
+    }
+
+    .error-page {
+        min-height: auto;
+    }
+
+    .error-decor {
+        top: 35px;
+        left: -100px;
+        right: -116px;
+        margin: auto;
+        width: 386px;
+        height: 326px;
+        background: url(../img/error-decor-mob.png) center no-repeat;
+        background-size: contain;
+    }
+
+    .error-title {
+        position: absolute;
+        top: 68px;
+        left: -50px;
+        right: -50px;
+        margin: auto;
+        width: 375px;
+        height: 212px;
+    }
+
+    .error-text {
+        padding-top: 280px;
     }
 }
 
