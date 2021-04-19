@@ -2466,6 +2466,11 @@ table td:nth-child(3) {
     color: #FFDD67;
 }
 
+.steps + .btn-wrapper {
+    position: relative;
+    z-index: 2;
+}
+
 .error-decor {
     position: absolute;
     top: -40px;
