@@ -361,7 +361,7 @@ header ~ .inner-page {
     height: 91px;
     background: url(../img-plug/logo-5ka.svg) center no-repeat;
     background-size: contain;
-    z-index: 5;
+    z-index: 7;
 }
 
 .logo-perek {
@@ -374,7 +374,7 @@ header ~ .inner-page {
     height: 91px;
     background: url(../img-plug/logo-perek.svg) center no-repeat;
     background-size: contain;
-    z-index: 5;
+    z-index: 7;
 }
 
 footer {
