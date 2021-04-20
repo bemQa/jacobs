@@ -377,6 +377,12 @@ header ~ .inner-page {
     z-index: 7;
 }
 
+.logo-5ka.disabled,
+.logo-perek.disabled {
+    pointer-events: none;
+    opacity: .6;
+}
+
 footer {
     flex: 0 0 auto;
     position: relative;
