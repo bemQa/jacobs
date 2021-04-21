@@ -2422,6 +2422,21 @@ table td:nth-child(3) {
     z-index: 1;
 }
 
+.parallax-mirror {
+    overflow: visible !important;
+}
+
+.main-decor-desk {
+    position: absolute;
+    top: -30px;
+    left: 0;
+    right: -50px;
+    margin: auto;
+    width: 777px;
+    height: 411px;
+    z-index: 1;
+}
+
 .steps-block {
     position: relative;
     max-width: 780px;

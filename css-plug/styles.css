@@ -542,7 +542,7 @@ footer::before {
     height: 494px;
     background: url(../img-plug/kv.png) center no-repeat;
     background-size: contain;
-    z-index: 5;
+    z-index: 7;
 }
 
 .main-decor {
@@ -555,6 +555,21 @@ footer::before {
     height: 411px;
     background: url(../img-plug/main-decor.png) center no-repeat;
     background-size: contain;
+    z-index: 6;
+}
+
+.parallax-mirror {
+    overflow: visible !important;
+}
+
+.main-decor-desk {
+    position: absolute;
+    top: -80px;
+    left: 0;
+    right: -50px;
+    margin: auto;
+    width: 777px;
+    height: 411px;
     z-index: 6;
 }
 

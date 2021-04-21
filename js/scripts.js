@@ -234,7 +234,7 @@ $(document).ready(function () {
         });
     }
 
-    if($(".main-page").length && window.innerWidth > 1000) {
+    if($(".main-page").length && window.innerWidth < 1000) {
         $(".main-page").mousemove(function(e) {
             var $this = $(this);
             parallaxIt(e, ".main-decor", -15, $this);
