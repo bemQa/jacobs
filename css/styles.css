@@ -2556,7 +2556,7 @@ table td:nth-child(3) {
         top: 10px;
         left: 0;
         right: 0;
-        max-width: 120px;
+        max-width: 160px;
         margin: auto;
         z-index: 11;
     }
@@ -2586,7 +2586,7 @@ table td:nth-child(3) {
         align-items: center;
         justify-content: flex-start;
         position: absolute;
-        top: -550px;
+        top: -650px;
         left: 0;
         right: 0;
         max-width: 100%;
@@ -2596,7 +2596,7 @@ table td:nth-child(3) {
         transition: all .2s linear;
         background: #1E402C;
         margin: auto;
-        padding: 50px 0 25px;
+        padding: 120px 0 25px;
         text-align: center;
         z-index: 0;
     }
@@ -2626,13 +2626,14 @@ table td:nth-child(3) {
     .menu-links .login-link {
         order: -1;
         margin-top: 0;
-        margin-bottom: 15px;
-        padding-bottom: 30px;
+        margin-bottom: 22px;
+        padding-top: 33px;
+        padding-bottom: 33px;
     }
 
     .menu-links .login-link::before {
-        top: 7px;
-        bottom: auto;
+        top: -1px;
+        bottom: 0;
         left: -220px;
         right: 0;
         width: 17px;
@@ -2640,12 +2641,13 @@ table td:nth-child(3) {
     }
 
     .menu-links .login-link::after {
-        top: auto;
-        bottom: 0;
+        top: 0;
         left: -50px;
         right: -50px;
+        bottom: 0;
+        margin: auto;
         width: 375px;
-        height: 2px;
+        height: 96px;
         background: url(../img/menu-separate.png) center no-repeat;
         background-size: 100% 100%;
         opacity: 1;
@@ -3085,5 +3087,27 @@ table td:nth-child(3) {
     .iframe-wrap,
     .iframe-wrap iframe {
         min-height: 340px;
+    }
+
+    .logo {
+        max-width: 120px;
+    }
+
+    .menu-links {
+        padding-top: 90px;
+    }
+
+    .menu-link {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .menu-links .login-link {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .menu-links .login-link::after {
+        height: 70px;   
     }
 }
