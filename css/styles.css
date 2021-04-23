@@ -2437,6 +2437,70 @@ table td:nth-child(3) {
     z-index: 1;
 }
 
+.caramel1 {
+    position: absolute;
+    top: 300px;
+    left: 150px;
+    width: 102px;
+    height: 101px;
+}
+
+.caramel2 {
+    position: absolute;
+    top: 90px;
+    left: 320px;
+    width: 70px;
+    height: 71px;
+}
+
+.caramel3 {
+    position: absolute;
+    top: 6px;
+    left: 230px;
+    width: 99px;
+    height: 91px;
+}
+
+.caramel4 {
+    position: absolute;
+    top: 262px;
+    left: 235px;
+    width: 70px;
+    height: 68px;
+}
+
+.nut1 {
+    position: absolute;
+    top: 90px;
+    right: 120px;
+    width: 78px;
+    height: 88px;
+}
+
+.nut2 {
+    position: absolute;
+    top: -10px;
+    right: 240px;
+    width: 111px;
+    height: 103px;
+}
+
+.nut3 {
+    position: absolute;
+    top: 236px;
+    right: 202px;
+    width: 82px;
+    height: 80px;
+}
+
+.nut4 {
+    position: absolute;
+    top: 218px;
+    right: 300px;
+    width: 50px;
+    height: 52px;
+}
+
 .steps-block {
     position: relative;
     max-width: 780px;

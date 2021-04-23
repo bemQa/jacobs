@@ -573,6 +573,70 @@ footer::before {
     z-index: 6;
 }
 
+.caramel1 {
+    position: absolute;
+    top: 300px;
+    left: 150px;
+    width: 80px;
+    height: 79px;
+}
+
+.caramel2 {
+    position: absolute;
+    top: 60px;
+    left: 340px;
+    width: 60px;
+    height: 61px;
+}
+
+.caramel3 {
+    position: absolute;
+    top: -50px;
+    left: 240px;
+    width: 99px;
+    height: 91px;
+}
+
+.caramel4 {
+    position: absolute;
+    top: 232px;
+    left: 255px;
+    width: 30px;
+    height: 28px;
+}
+
+.nut1 {
+    position: absolute;
+    top: 90px;
+    right: 120px;
+    width: 60px;
+    height: 68px;
+}
+
+.nut2 {
+    position: absolute;
+    top: -60px;
+    right: 240px;
+    width: 111px;
+    height: 103px;
+}
+
+.nut3 {
+    position: absolute;
+    top: 236px;
+    right: 202px;
+    width: 30px;
+    height: 29px;
+}
+
+.nut4 {
+    position: absolute;
+    top: 198px;
+    right: 300px;
+    width: 20px;
+    height: 21px;
+}
+
 .steps-block {
     position: relative;
     max-width: 780px;
