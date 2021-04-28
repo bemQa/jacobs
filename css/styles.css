@@ -1503,6 +1503,7 @@ span.error {
 .profile-name {
     max-width: 500px;
     width: 100%;
+	min-height: 36px;
     font-size: 14px;
     line-height: 18px;
     text-align: center;
