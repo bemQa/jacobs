@@ -2431,6 +2431,11 @@ table td:nth-child(3) {
     overflow: visible !important;
 }
 
+.parallax-mirror img {
+    width: 100% !important;
+    height: 100% !important;
+}
+
 .main-decor-desk {
     position: absolute;
     top: -30px;
@@ -2440,6 +2445,11 @@ table td:nth-child(3) {
     width: 777px;
     height: 411px;
     z-index: 1;
+}
+
+.parallax-wrap {
+    margin: auto;
+    height: 450px;
 }
 
 .caramel1 {
@@ -2510,8 +2520,9 @@ table td:nth-child(3) {
     position: relative;
     max-width: 780px;
     width: 100%;
+    min-height: 265px;
     margin: auto;
-    padding-top: 450px;
+    /*padding-top: 450px;*/
 }
 
 .steps {

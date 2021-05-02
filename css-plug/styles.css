@@ -562,6 +562,11 @@ footer::before {
     overflow: visible !important;
 }
 
+.parallax-mirror img {
+    width: 100% !important;
+    height: 100% !important;
+}
+
 .main-decor-desk {
     position: absolute;
     top: -80px;
@@ -577,16 +582,16 @@ footer::before {
     position: absolute;
     top: 300px;
     left: 150px;
-    width: 80px;
-    height: 79px;
+    width: 102px;
+    height: 101px;
 }
 
 .caramel2 {
     position: absolute;
     top: 60px;
     left: 340px;
-    width: 60px;
-    height: 61px;
+    width: 70px;
+    height: 71px;
 }
 
 .caramel3 {
@@ -601,16 +606,16 @@ footer::before {
     position: absolute;
     top: 232px;
     left: 255px;
-    width: 30px;
-    height: 28px;
+    width: 70px;
+    height: 68px;
 }
 
 .nut1 {
     position: absolute;
     top: 90px;
     right: 120px;
-    width: 60px;
-    height: 68px;
+    width: 78px;
+    height: 88px;
 }
 
 .nut2 {
@@ -625,16 +630,16 @@ footer::before {
     position: absolute;
     top: 236px;
     right: 202px;
-    width: 30px;
-    height: 29px;
+    width: 82px;
+    height: 80px;
 }
 
 .nut4 {
     position: absolute;
     top: 198px;
     right: 300px;
-    width: 20px;
-    height: 21px;
+    width: 50px;
+    height: 52px;
 }
 
 .steps-block {
