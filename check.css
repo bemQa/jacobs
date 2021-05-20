@@ -419,3 +419,9 @@ app-root .dropzone .dz-preview .dz-image {
     width: 100px;
     height: 100px;
 }
+
+.angular-uf-no-device-message,
+.angular-uf-device-check-err-message,
+.angular-uf-restrict-message {
+    text-align: center;
+}
